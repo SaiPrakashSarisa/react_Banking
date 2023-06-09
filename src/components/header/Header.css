@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height : 10vh;
+    color: white;
+    background-color: rgb(190, 190, 214);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bank_logo{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bank_title{
+    color: black;
+    font-size : 3rem;
+    /* font-family: 'Russo One', sans-serif; */
+    font-family: 'Monoton', cursive;
+    margin : 0px 15px;
+}
+
+.header_nav nav ul{
+    color : black;
+    display: flex;
+    flex-direction: row;
+    margin : 0px 10px;
+}
+
+.header_nav nav ul li{
+    list-style: none;
+    margin: 0px 10px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header_nav nav ul li:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    transition-delay: 1s;
+    cursor : pointer;
+}

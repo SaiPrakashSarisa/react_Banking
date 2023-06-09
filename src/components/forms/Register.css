@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.reg_form{
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   }
+   
+.reg_form .reg {
+    height: auto;
+    padding: 8px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #3b3772;
+    border-radius: 20px;  
+}
+
+.form-field-group{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+}
+
+.form-field-group .form-group{
+    margin: 0px 10px;
+}
+
+.field-field{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.field-field span{
+    font-size: 2rem;
+    font-family: 'Monoton', cursive;
+    color: white;
+    text-transform: uppercase;
+    margin: 30px 0px;
+}
+
